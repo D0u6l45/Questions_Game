@@ -6,15 +6,16 @@ function pageLanding(req, res){
       return res.sendFile(__dirname + "/index.html")
 }
 
+function cadastro(req, res){
+      return res.sendFile(__dirname + "/cadastro.html")
+}
 
 
 
 server
 .use(express.static("public"))
 .get("/", pageLanding)
-.get("/cadastro", (req, res)=>{
-            res.sendFile(__dirname + "/cadastro.html")
-})
+.get("/cadastro", cadastro )
 
 .get("/login", (req, res)=>{
       res.sendFile(__dirname + "/Login.html")
