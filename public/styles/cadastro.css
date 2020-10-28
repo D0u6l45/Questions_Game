@@ -1,0 +1,161 @@
+:root{
+  font-size: 40%;
+}
+
+
+.logo-container-cadastro{
+
+    display: block;
+    align-self: center;
+    justify-self: center;
+    
+
+}
+
+
+.logo-container-cadastro img{
+    display:block;
+    width: 100%;
+    max-width:400px;
+
+    
+
+  }
+
+  .logo-container-cadastro img:hover{
+
+  -ms-transform: rotate(10deg); /* IE 9 */
+  transform: rotate(10deg);
+
+  }
+
+.container_cadastro{
+  width: 90vw;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+input{
+  display: block;
+   margin-bottom: 2rem;
+   height: 5rem;
+   width: 50rem;
+   border-radius: 2rem;
+   background: rgb(219, 218, 218);
+   text-align: center;
+   font-size: 4rem;
+   outline: 0;
+
+}
+
+
+
+
+
+
+.formulario{
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  width: 100%;
+  height: 60rem;
+  border:2px solid #000;
+  border-radius: 4rem;
+ 
+
+ 
+}
+
+.titulo{
+        display: block;
+        text-align: center;
+        font-size: 5rem;
+        margin-bottom: 4rem;
+        font-family: cursive;
+        font-weight: bold;
+}
+
+.botao_cadastro{
+    display: flex;
+    font-size: 4.5rem;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   margin-top: 1rem;
+  
+}
+
+
+
+.botao_cadastro .botao_cad1{
+  display: flex;
+  background: darkblue;
+  border-radius: 2rem;
+   height: 7rem;
+   transition: 0.5s ;
+   width: 30%;
+   margin: 2rem;
+   align-items: center;
+   justify-content: center;
+   transition: background  .5s;
+   outline: 0;
+
+}
+
+.botao_cadastro .botao_cad1:hover{
+  background: blue;
+}
+
+button, a{
+  text-decoration: none;
+  color: rgb(201, 201, 201);
+  border: none;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+
+.botao_cadastro .botao_cad2{
+  display: flex;
+  background: darkblue;
+  border-radius: 2rem;
+   transition: 0.5s ;
+   height: 7rem ;
+   width: 30%;
+   align-items: center;
+   justify-content: center;
+transition: background .5;
+outline: 0;
+}
+
+.botao_cadastro .botao_cad2:hover{
+      background: blue;
+}
+
+.log{
+position: relative;
+
+}
+
+.log:focus-within::after{
+      background: aqua;
+    height: .2rem;
+      width: calc(100% - 3rem);
+      content: "";
+      bottom:0;
+      position: absolute;
+      left: 1.3rem;
+     
+
+}

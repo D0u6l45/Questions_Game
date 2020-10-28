@@ -1,0 +1,153 @@
+:root{
+  font-size: 40%;
+}
+
+.logo-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start   ;
+
+}
+
+
+  .logo-container img{
+    display:block;
+    width: 100%;
+    max-width: 400px;
+    
+  }
+
+  .logo-container img:hover{
+
+  -ms-transform: rotate(10deg); /* IE 9 */
+  transform: rotate(10deg);
+
+  }
+
+
+.container{
+  width: 90vw;
+  
+  
+}
+
+.imagem{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.imagem img{
+  max-width: 400px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    font-size: 4.5rem;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+  
+}
+
+.botao1{
+  display: flex;
+  flex-direction: column;
+  background: darkblue;
+  border-radius: 2rem;
+   height: 6rem;
+   transition: 0.5s ;
+   margin-bottom: 5rem;
+   width: 25rem;
+align-items: center;
+justify-content: center;
+
+
+}
+a  {
+  text-decoration: none;
+  color: rgb(201, 201, 201);
+
+}
+
+.botao1:hover{
+background: rgb(59, 59, 201);
+  
+}
+
+.botao2{
+  display: block;
+  background: darkblue;
+  border-radius: 2rem;
+   text-align: center;
+   transition: 0.5s ;
+   height: 6rem ;
+   width: 25rem
+}
+
+
+.botao2:hover{
+  background: rgb(59, 59, 201);
+
+
+}
+
+
+@media (max-width:425px){
+  .botoes{
+    display: block;
+    font-size: 2.5rem;
+   align-self: center;
+   justify-self: center;
+   width: 15rem;
+  
+}
+
+.botao1{
+  display: flex;
+  background: darkblue;
+  border-radius: 2rem;
+   text-align: center;
+   height: 6rem;
+   transition: 0.5s ;
+   margin-bottom: 5rem;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+
+}
+a  {
+  text-decoration: none;
+  color: rgb(201, 201, 201);
+
+}
+
+.botao1:hover{
+background: rgb(59, 59, 201);
+  
+}
+
+.botao2{
+  display: flex;
+  background: darkblue;
+  border-radius: 2rem;
+   text-align: center;
+   transition: 0.5s ;
+   height: 6rem ;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+
+.botao2:hover{
+  background: rgb(59, 59, 201);
+
+
+}
+
+
+

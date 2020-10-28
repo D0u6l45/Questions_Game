@@ -1,0 +1,100 @@
+
+:root{
+  font-size: 60%;
+}
+
+*{
+  margin:0;
+  padding: 0;
+
+}
+
+#page-landing{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(90, 122, 189);
+  
+}
+
+#cadastro{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(90, 122, 189);
+  
+  
+}
+
+#login{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(90, 122, 189);
+  
+  
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: .5fr auto .5fr ;
+ 
+}
+
+
+.container_cadastro{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+
+}
+
+.container_login{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+
+}
+
+
+#assuntos{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(167, 192, 241);
+  
+  
+
+}
+
+
+.container_assuntos main{
+   
+   width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+  "grid1 grid2 grid3";
+
+  }
+
+  
+  .grid_1{
+    grid-area: grid1;
+  }
+
+ .grid_2{
+ grid-area: grid2;
+  }
+
+  .grid_3{
+    grid-area: grid3;
+     }
+
+
