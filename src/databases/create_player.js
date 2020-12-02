@@ -1,9 +1,10 @@
+
 module.exports = async function (db, {criaPlayer}){
+  
 
   const insercao_dados = await db.run(`
   
         insert into player(
-          
             nick,
             name,
             email,
